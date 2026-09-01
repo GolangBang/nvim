@@ -55,6 +55,7 @@ require("lazy").setup({
 -- 6. Colorscheme
 pcall(vim.cmd.colorscheme, "catppuccin")
 
+
 -- 7. Plugin configs
 require("lualine").setup({ options = { theme = "auto" } })
 require("nvim-treesitter.configs").setup({
