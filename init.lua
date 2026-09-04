@@ -48,6 +48,11 @@ require("lazy").setup({
   { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
   { "neovim/nvim-lspconfig" },
   {
+  "windwp/nvim-autopairs",
+  event = "InsertEnter",
+  opts = {},
+  },
+  {
   "saghen/blink.cmp",
   version = "*",
   opts = {
